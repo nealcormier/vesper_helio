@@ -1,0 +1,533 @@
+/**
+ * @file
+ * This file can host your custom  media queries CSS for vesper_helio.
+ * 
+ * Rename this file by removing ".txt" extension from file name's end.
+ * Leaving only the ".css" extension.
+ *
+ * Rename it from:
+ *   "my-custom-ff-md-queries.css.txt"
+ * into:
+ *   "my-custom-ff-md-queries.css"
+ * 
+ */Full Screen Desktop*/
+
+@media screen and (max-width: 1024px) {
+  #main_container {
+    width: 100%;
+  }
+  #header_top .search {
+    width: 0%
+  }
+
+
+
+}/* MEDIA Q--* 1024/
+
+
+
+
+ /*iPad Tablet*/
+ 
+@media screen (min-width: 768px) and (max-width: 959px) {
+
+#header_top {
+  max-width: 959px;
+  min-width: 768px;
+}
+
+
+#firstdiv_about{
+width: 45%;
+}	
+
+#firstdiv_about img {
+width:80%;
+}
+
+#seconddiv_about {
+width: 45%;
+}
+
+
+.post-box img, .post_box img {
+    width: 160%;
+}
+
+
+#header_top .menu_cont a {
+  width: 100%;
+  padding: 19px 20px 21px 10px;
+  font-size: 1.2em;
+}
+
+.post-box h3, 
+.post_box h3 {
+    font-size: 1em;
+    background-image: linear-gradient(200deg, #393691, #360059 125px);
+    box-shadow: 10px 3px 50px 6px #393691;
+}
+
+.big-post-box h3,
+.big_post_box h3 {
+  background-color: #ccc;
+  background-image: -webkit-gradient(linear, left bottom, from(#393691), to(#000));
+  background-image: -webkit-linear-gradient(left bottom, #393691, #fff);
+  background-image:    -moz-linear-gradient(left bottom, #393691, #fff);
+  background-image:      -o-linear-gradient(left bottom, #393691, #fff);
+  background-image:         linear-gradient(left to bottom, #393691, #fff);
+  font-size: 11.5em;
+  width: 144%;
+  height: 145px;
+  letter-spacing: 25px;
+  text-align: center;
+  margin: 0;
+  font-weight: 900;  
+  text-transform: uppercase;
+}
+
+.view .date-nav-wrapper .date-heading h3 {
+font-size: 1.1em;
+  font-weight: 70;
+  margin: 0;
+  height: 43px;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 15px;
+  }
+  
+.blog-box img, 
+.blog_box img, 
+#single_left img {
+    height: inherit;
+    max-width: 49%;
+}
+  
+.post-box{
+  margin-top: 0.3em;
+}
+
+.main_img {
+  max-width: 100%;
+}
+
+#shorthand {
+  font-size: 1em;
+}
+
+#shorthand {
+  font-size: 2em;
+}
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+  .post-box,
+  .post_box {
+    float:none;
+    width:100%;
+  }
+  
+.big-post-box,
+.big_post_box {
+    float:none;
+}
+  
+
+#firstdiv_about{
+  width: 100%;
+
+}	
+
+
+#firstdiv_about img {
+  width:60%;
+}
+
+
+#seconddiv_about {
+  width: 100%;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+
+.post-box img, .post_box img {
+    width: 160%;
+}
+
+
+.post-box h3, 
+.post_box h3 {
+    font-size: 1em;
+    background-image: linear-gradient(200deg, #393691, #360059 125px);
+    box-shadow: 10px 3px 50px 6px #393691;
+}
+
+ 
+#firstdiv_about{
+  width: 40%;
+}	
+
+
+#firstdiv_about img {
+width:70%;
+}
+
+
+
+#seconddiv_about {
+width: 45%;
+}
+
+.view .date-nav-wrapper .date-heading h3 {
+font-size: 1em;
+  font-weight: 50;
+  margin: 0;
+  height: 43px;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 15px;
+  }
+  
+  .blog-box img, 
+.blog_box img, 
+{
+    height: inherit;
+    max-width: 47%;
+}
+
+
+#shorthand {
+  font-size: 2em;
+}
+
+}
+
+
+@media screen and (max-width: 540px) {
+
+.post-box img, .post_box img {
+    width: 160%;
+}
+
+
+.post-box h3, 
+.post_box h3 {
+    font-size: 1em;
+    background-image: linear-gradient(200deg, #393691, #360059 125px);
+    box-shadow: 10px 3px 50px 6px #393691;
+}
+
+
+}
+
+@media screen and (max-width: 520px) {
+
+.view .date-nav-wrapper .date-heading h3 {
+font-size: 1em;
+  font-weight: 50;
+  margin: 0;
+  height: 43px;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 15px;
+  }
+  
+
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-top: -0.3em;
+    padding: 10px 10px 15px 23px;
+}
+  
+  
+#firstdiv_about img {
+width:60%;
+}
+
+
+
+.post-box h3, 
+.post_box h3 {
+    font-size: 1em;
+    background-image: linear-gradient(200deg, #393691, #360059 125px);
+    box-shadow: 10px 3px 50px 6px #393691;
+}
+
+
+.big-post-box h3,
+.big_post_box h3 {
+  background-color: #ccc;
+  background-image: -webkit-gradient(linear, left bottom, from(#393691), to(#000));
+  background-image: -webkit-linear-gradient(left bottom, #393691, #fff);
+  background-image:    -moz-linear-gradient(left bottom, #393691, #fff);
+  background-image:      -o-linear-gradient(left bottom, #393691, #fff);
+  background-image:         linear-gradient(left to bottom, #393691, #fff);
+  font-size: 8.5em;
+width: 144%;
+height: 110px;
+  letter-spacing: 25px;
+  text-align: center;
+  margin: 0;
+  font-weight: 900;  
+  text-transform: uppercase;
+}
+
+
+ #firstdiv_about{
+width: 100%;
+}	
+
+#seconddiv_about {
+width: 100%;
+}
+
+
+  #header_top {
+    position: relative;
+    text-align: center;
+    border-bottom: none;
+    margin-top: 12px
+  }
+  
+  #header_top .header_top_border {
+    display: none;
+  }
+  
+  #header_top a.toggle {
+    display: inline;
+    margin: 8%;
+    background-color: #CCCCFF;
+    padding: 20px;
+  }
+
+
+  #header_top nav.menu_cont{
+    height:0;
+    overflow:hidden;
+  }
+  
+  #header_top nav.menu_cont.open{
+    height:auto;
+    float:none;
+  }
+  
+  #header_top .open #sub-menu,
+  #header_top nav.menu_cont.open ul li,
+  #header_top nav.menu_cont.open ul {
+    background: #000;
+    clear: both;
+    display:block;
+    float:none;
+  }
+  
+  #header_top nav.menu_cont.open .social  {
+    display: block;
+    float: none
+  }
+  
+  #header_top nav.menu_cont.open .social a {
+    border-top: 0;
+    display: inline;
+    float: left;
+    padding-bottom: 4px;
+  }
+    
+  #header {
+    padding-top: 30px;
+  }
+
+ .blog-box img, 
+.blog_box img, 
+#single_left img {
+    height: inherit;
+    max-width: 100%;
+}
+
+#shorthand {
+  font-size: 2em;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+.post-box img, .post_box img {
+    width: 160%;
+}
+
+
+.post-box h3, 
+.post_box h3 {
+    font-size: 1em;
+    background-image: linear-gradient(200deg, #393691, #360059 125px);
+    box-shadow: 10px 3px 50px 6px #393691;
+}
+
+
+.big-post-box h3,
+.big_post_box h3 {
+  background-color: #ccc;
+  background-image: -webkit-gradient(linear, left bottom, from(#393691), to(#000));
+  background-image: -webkit-linear-gradient(left bottom, #393691, #fff);
+  background-image:    -moz-linear-gradient(left bottom, #393691, #fff);
+  background-image:      -o-linear-gradient(left bottom, #393691, #fff);
+  background-image:         linear-gradient(left to bottom, #393691, #fff);
+  font-size: 8.5em;
+width: 144%;
+height: 110px;
+  letter-spacing: 25px;
+  text-align: center;
+  margin: 0;
+  font-weight: 900;  
+  text-transform: uppercase;
+}
+
+
+#firstdiv_about{
+width: 100%;
+}	
+
+
+#firstdiv_about img {
+width:60%;
+}
+
+
+#seconddiv_about {
+width: 100%;
+}
+
+ .blog-box img, 
+.blog_box img, 
+#single_left img {
+    height: inherit;
+    max-width: 100%;
+}
+
+#shorthand {
+  font-size: 2em;
+}
+
+}
+
+
+@media screen and (max-width: 340px) {
+
+.post-box img, .post_box img {
+    width: 160%;
+}
+
+
+.post-box h3, 
+.post_box h3 {
+    font-size: 1em;
+    background-image: linear-gradient(200deg, #393691, #360059 125px);
+    box-shadow: 10px 3px 50px 6px #393691;
+}
+
+
+ .blog-box img, 
+.blog_box img, 
+#single_left img {
+    height: inherit;
+    max-width: 100%;
+}
+
+#link_box {
+    font-size: 1.3em;
+    max-width: 300px;
+    
+}
+
+ }
+
+
+@media screen and (max-width: 320px) {
+
+.post-box img, .post_box img {
+    width: 160%;
+}
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1.2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+  
+  }
+
+#firstdiv_about img {
+width:50%;
+}
+
+
+#link_box {
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+
+.big-post-box h3,
+.big_post_box h3 {
+  background-color: #ccc;
+  background-image: -webkit-gradient(linear, left bottom, from(#393691), to(#000));
+  background-image: -webkit-linear-gradient(left bottom, #393691, #fff);
+  background-image:    -moz-linear-gradient(left bottom, #393691, #fff);
+  background-image:      -o-linear-gradient(left bottom, #393691, #fff);
+  background-image:         linear-gradient(left to bottom, #393691, #fff);
+  font-size: 8.5em;
+width: 144%;
+height: 100px;
+  letter-spacing: 25px;
+  text-align: center;
+  margin: 0;
+  font-weight: 900;  
+  text-transform: uppercase;
+}
+
+ .blog-box img, 
+.blog_box img, 
+#single_left img {
+    height: inherit;
+    max-width: 100%;
+}
+
+#link_box {
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+}
+
+}
+ 
+
+
+
+
+
+
+
